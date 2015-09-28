@@ -1,0 +1,14 @@
+{
+  "name": "awsm-slack-webhook",
+  "version": "0.0.1",
+  "location": "https://github.com/eahefnawy/awsm-slack-webhook",
+  "author": "Eslam A. Hefnawy <eahefnawy@gmail.com>",
+  "description": "JAWS package/API endpint/Webhook for Slack",
+  "resources": {
+    "cloudFormation": {
+      "LambdaIamPolicyDocumentStatements": [],
+      "ApiGatewayIamPolicyDocumentStatements": [],
+      "Resources": {}
+    }
+  }
+}
