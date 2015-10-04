@@ -1,6 +1,6 @@
 # 💬 awsm-slack-webhook
 
-In your JAWS project root directory, run:
+In your JAWS project root directory, run: 
 
 ```
 jaws module install https://github.com/jaws-framework/jaws-core-js
