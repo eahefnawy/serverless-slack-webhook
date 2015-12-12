@@ -1,16 +1,17 @@
-# 💬 awsm-slack-webhook
+# 💳 serverless-slack-webhook
 
-In your JAWS project root directory, run: 
- 
+In your Serverless project root directory, run:
+
 ```
-npm install awsm-slack-webhook
+sls module install https://github.com/eahefnawy/awsm-slack-webhook
 ```
 
-open `<JAWS project name>/aws_modules/awsm-slack-webhook/webhook/index.js` and add your callback code. This is the code that will handle the webhook.
+open `<serverelss project name>/back/modules/sl-slack-webhook/lib/index.js` and add your callback code. This is the code that will handle the webhook.
 
 when you're done, deploy with:
 
 ```
-jaws dash
+sls function deploy
+sls endpoint deploy
 ```
-After deployment, add this webhook URL to Slack: `<endpoint>/webhooks/slack`, and test it out!
+After deployment, add the webhook url to Slack and test it out!

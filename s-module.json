@@ -1,0 +1,14 @@
+{
+  "name": "sl-slack-webhook",
+  "version": "0.0.1",
+  "profile": "aws-0",
+  "location": "https://github.com/...",
+  "author": "Eslam A. Hefnawy <eslam@serverless.com>",
+  "description": "Serverless Module that creates a webhook for Slack",
+  "custom": {},
+  "cloudFormation": {
+    "lambdaIamPolicyDocumentStatements": [],
+    "resources": {}
+  },
+  "runtime": "nodejs"
+}

@@ -1,17 +1,17 @@
 {
-  "name": "awsm-slack-webhook",
-  "version": "1.3.0",
-  "description": "AWSM Slack endpint/Webhook for your JAWS projects.",
-  "author": "Eslam A. Hefnawy <eahefnawy@gmail.com>",
+  "name": "sl-slack-webhook",
+  "version": "0.0.1",
+  "description": "Dependencies for a Serverless Module written in Node.js",
+  "author": "Eslam A. Hefnawy <eslam@serverless.com>",
   "license": "MIT",
+  "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/eahefnawy/awsm-slack-webhook"
+    "url": "git://github.com/eahefnawy/serverless-slack-webhook"
   },
-  "keywords": ["JAWS", "AWSM", "AWS API endpint", "Slack", "Webhook"],
+  "keywords": ["serverless", "module", "slack", "webhook"],
   "devDependencies": {},
-  "dependencies": {},
-  "scripts": {
-    "postinstall" : "jaws postinstall awsm-slack-webhook npm"
+  "dependencies": {
+    "serverless-helpers-js": "~0.0.3"
   }
 }
